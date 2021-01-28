@@ -42,16 +42,7 @@ function App() {
 
     return `${day}, ${date} ${month} ${year}`
   }
-  console.log(weather)
   
-  // const bgpic=  weather.main.temp < 5 ? 'app cold':
-  // weather.main.temp < 13 ? 'app fall':
-  // weather.main.temp >13 ? 'app sunny' :
-  // "app"
-             
- 
-  
-
   return (
     <div className={
       (typeof weather.main != "undefined") ?
